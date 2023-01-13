@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: whitesmoke;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 17px 50px;
+    background-color: orange;
+    margin-bottom: 30px;
+    box-shadow: 10px 5px 5px rgb(204, 174, 174);
+}
+
+header ul {
+    background-color: orange;
+}
+
+.nav-title {
+    margin-right: auto;
+    background-color: orange;
+    color: red;
+    font-style: oblique;
+}
+
+.nav-title span {
+    margin-right: auto;
+    background-color: orange;
+    color: red;
+    font-style: normal;
+}
+
+header li {
+    display: inline-block;
+    list-style: none;
+    padding: 0 25px;
+    background-color: orange;
+    padding: 0 20px;
+}
+
+header a {
+    background-color: orange;
+    font-style:inherit;
+    transition: all 0.3s ease 0s;
+    text-decoration: none;
+    color: red;
+}
+
+header a:hover {
+    color: red;
+}
+
+h2 {
+    margin-bottom: 8px;
+    text-align: center;
+}
+
+p {
+    margin-bottom: 12px;
+    text-align: center;
+}
+
+img {
+    height: auto;
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25px;
+}
+
+.container li a{
+    text-decoration: none;
+    color: lightcoral;
+}
+
+.container ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+.footer {
+    position: fixed;
+    padding: 10px 10px 0px 10px;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    background:orange;
+}
+
+.footer p{
+    color: red;
+    background-color: orange;
+    text-align: center;
+}
